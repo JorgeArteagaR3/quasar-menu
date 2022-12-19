@@ -17,6 +17,6 @@ code {
 aside {
     background: white;
     width: 260px;
-    height: 100vh;
+    min-height: 100vh;
     padding: 15px;
 }
