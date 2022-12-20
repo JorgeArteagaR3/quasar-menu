@@ -21,6 +21,7 @@ ul {
     display: none;
     opacity: 0;
     transition: all 2s;
+    margin-bottom: 10px;
 }
 .list-item {
     width: 100%;
@@ -52,6 +53,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     color: #5e5873;
+    margin-bottom: 10px;
 }
 .nav-section > p:hover {
     background: #7367f0;
@@ -65,6 +67,7 @@ ul {
 }
 .arrow-active {
     transform: rotate(90deg);
+    transition: all 0.4s;
 }
 .inactive {
     display: none;
@@ -85,4 +88,34 @@ ul {
 .list {
     display: flex;
     flex-direction: column;
+}
+.sub-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.sub-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.sub-item:hover {
+    transform: translateX(5px);
+}
+.open {
+    background: rgba(114, 103, 240, 0.303);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    transition: all 0.4s;
+}
+.list-item-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 10px;
 }

@@ -34,20 +34,62 @@ const NavBar = () => {
             Icon: BsTools,
             sublist: ["Lista de Mantenimientos", "Solicitud de Mantenimiento"],
         },
-        { title: "No Quasar", Icon: TbBuildingWarehouse },
-        { title: "Transporte", Icon: BsTruck },
+        {
+            title: "No Quasar",
+            Icon: TbBuildingWarehouse,
+            sublist: ["Proceso", "Base de Datos"],
+        },
+        {
+            title: "Transporte",
+            Icon: BsTruck,
+            sublist: [
+                "Solicitudes de Transporte",
+                "Rutas Generadas",
+                "Busqueda",
+            ],
+        },
         { title: "Producción", Icon: FiBox },
-        { title: "Almacen", Icon: FaWarehouse },
-        { title: "Relevamientos", Icon: TfiRulerAlt },
+        {
+            title: "Almacen",
+            Icon: FaWarehouse,
+            sublist: ["Ingreso de Elementos", "POR DEFINIR"],
+        },
+        {
+            title: "Relevamientos",
+            Icon: TfiRulerAlt,
+            sublist: ["Lista de Relevamientos", "Base de datos Tren"],
+        },
     ];
     const administracion = [
-        { title: "Campañas", Icon: FiCalendar },
+        {
+            title: "Campañas",
+            Icon: FiCalendar,
+            sublist: [
+                "Agregar Campaña",
+                "Lista",
+                "Proceso",
+                "Desinstalaciones",
+            ],
+        },
         { title: "Notificaciones", Icon: BiBell },
     ];
     const dataBase = [
-        { title: "Tiendas", Icon: FiShoppingCart },
+        {
+            title: "Tiendas",
+            Icon: FiShoppingCart,
+            sublist: [
+                "Grupo Económico",
+                "Cadena",
+                "Tiendas",
+                "Formato de Tienda",
+            ],
+        },
         { title: "Usuarios", Icon: FiUsers },
-        { title: "Categorias", Icon: BiCategory },
+        {
+            title: "Categorias",
+            Icon: BiCategory,
+            sublist: ["Categoría Master", "Categoría Padre", "Categoria"],
+        },
         { title: "Clientes", Icon: FaUsers },
         { title: "Motivos y Submotivos", Icon: FiCheckCircle },
         { title: "Proveedores", Icon: IoBusinessOutline },

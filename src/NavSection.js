@@ -20,7 +20,10 @@ const NavSection = ({ title, list }) => {
             {isSectionOpen && (
                 <ul className={isSectionOpen && "active"}>
                     {list.map((item, index) => (
-                        <SubSection item={item} />
+                        <SubSection
+                            item={item}
+                            key={item + index}
+                        />
                     ))}
                 </ul>
             )}
