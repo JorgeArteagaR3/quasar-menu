@@ -9,6 +9,7 @@ import {
     FiUsers,
     FiCheckCircle,
     FiPackage,
+    FiUser,
 } from "react-icons/fi";
 import { MdOutlineInventory2, MdPendingActions } from "react-icons/md";
 import { BiBell, BiCategory } from "react-icons/bi";
@@ -71,7 +72,15 @@ const NavBar = () => {
                 "Desinstalaciones",
             ],
         },
-        { title: "Notificaciones", Icon: BiBell },
+        {
+            title: "Notificaciones",
+            Icon: BiBell,
+            sublist: ["Administrar Notificaciones", "Lista"],
+        },
+        {
+            title: "Perfiles",
+            Icon: FiUser,
+        },
     ];
     const dataBase = [
         {
