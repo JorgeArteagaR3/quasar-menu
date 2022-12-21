@@ -16,15 +16,24 @@ import { BiBell, BiCategory } from "react-icons/bi";
 import { RiErrorWarningLine } from "react-icons/ri";
 import { TbRoute } from "react-icons/tb";
 import { BsTools, BsTruck } from "react-icons/bs";
-import { TbBuildingWarehouse } from "react-icons/tb";
+import { TbBuildingWarehouse, TbReplace } from "react-icons/tb";
 import { FaWarehouse, FaUsers } from "react-icons/fa";
 import { TfiRulerAlt } from "react-icons/tfi";
 import { IoBusinessOutline } from "react-icons/io5";
+import { CgExtensionRemove } from "react-icons/cg";
 
 const NavBar = () => {
     const reportes = [
         { title: "Dashboard", Icon: FiHome },
+        {
+            title: "Campañas",
+            Icon: FiCalendar,
+        },
         { title: "Inventarios", Icon: MdOutlineInventory2 },
+        {
+            title: "Notificaciones",
+            Icon: BiBell,
+        },
         { title: "Pendientes", Icon: MdPendingActions },
         { title: "Incidencias", Icon: RiErrorWarningLine },
         { title: "Rutas", Icon: TbRoute },
@@ -38,7 +47,6 @@ const NavBar = () => {
         {
             title: "No Quasar",
             Icon: TbBuildingWarehouse,
-            sublist: ["Proceso", "Base de Datos"],
         },
         {
             title: "Transporte",
@@ -50,6 +58,8 @@ const NavBar = () => {
             ],
         },
         { title: "Producción", Icon: FiBox },
+        { title: "Reposiciones", Icon: TbReplace },
+        { title: "Desinstalaciones", Icon: CgExtensionRemove },
         {
             title: "Almacen",
             Icon: FaWarehouse,
@@ -58,28 +68,25 @@ const NavBar = () => {
         {
             title: "Relevamientos",
             Icon: TfiRulerAlt,
-            sublist: ["Lista de Relevamientos", "Base de datos Tren"],
         },
     ];
     const administracion = [
         {
-            title: "Campañas",
+            title: "Crear Campaña",
             Icon: FiCalendar,
-            sublist: [
-                "Agregar Campaña",
-                "Lista",
-                "Proceso",
-                "Desinstalaciones",
-            ],
+            sublist: ["Agregar Campaña", "Lista"],
         },
         {
             title: "Notificaciones",
             Icon: BiBell,
-            sublist: ["Administrar Notificaciones", "Lista"],
         },
         {
-            title: "Perfiles",
+            title: "Roles",
             Icon: FiUser,
+        },
+        {
+            title: "Asignación de Rutas",
+            Icon: TbRoute,
         },
     ];
     const dataBase = [
@@ -101,7 +108,16 @@ const NavBar = () => {
         },
         { title: "Clientes", Icon: FaUsers },
         { title: "Motivos y Submotivos", Icon: FiCheckCircle },
-        { title: "Proveedores", Icon: IoBusinessOutline },
+        {
+            title: "Proveedores",
+            Icon: IoBusinessOutline,
+            sublist: ["Nombre", "Usuarios"],
+        },
+        {
+            title: "Placas",
+            Icon: IoBusinessOutline,
+            sublist: ["Nombre", "Usuarios"],
+        },
         { title: "Elementos", Icon: FiPackage },
     ];
     return (
