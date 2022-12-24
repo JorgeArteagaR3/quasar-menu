@@ -15,10 +15,12 @@ const SubSection = ({ item }) => {
                     setIsSubListOpen(!isSubListOpen);
                 }}
             >
-                <li className={isSubListOpen ? "list-item" : "list-item"}>
-                    <item.Icon className="icon" />
-                    {item.title}
-                </li>
+                <a href={item.url} target="_blank">
+                    <li className={isSubListOpen ? "list-item" : "list-item"}>
+                        <item.Icon className="icon" />
+                        {item.title}
+                    </li>
+                </a>
                 {item?.sublist && (
                     <MdKeyboardArrowRight
                         className={
@@ -29,12 +31,14 @@ const SubSection = ({ item }) => {
             </div>
             <div className="sub-items">
                 {item?.sublist?.map((subitem) => (
-                    <p
-                        key={subitem}
+                    <a
+                        href={subitem?.url}
+                        key={subitem.subtitle}
                         className={isSubListOpen ? "sub-item" : "inactive"}
+                        target="_blank"
                     >
-                        <div className="circle"></div> {subitem}
-                    </p>
+                        <div className="circle"></div> {subitem.subtitle}
+                    </a>
                 ))}
             </div>
         </div>
