@@ -15,7 +15,11 @@ const SubSection = ({ item }) => {
                     setIsSubListOpen(!isSubListOpen);
                 }}
             >
-                <a href={item.url} target="_blank">
+                <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <li className={isSubListOpen ? "list-item" : "list-item"}>
                         <item.Icon className="icon" />
                         {item.title}
@@ -36,6 +40,7 @@ const SubSection = ({ item }) => {
                         key={subitem.subtitle}
                         className={isSubListOpen ? "sub-item" : "inactive"}
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <div className="circle"></div> {subitem.subtitle}
                     </a>

@@ -169,7 +169,11 @@ const NavBar = () => {
                 },
             ],
         },
-        { title: "Usuarios", Icon: FiUsers },
+        {
+            title: "Usuarios",
+            Icon: FiUsers,
+            url: "https://www.figma.com/proto/aIWzrz7plNXBM1TSjPEQ9Q/Quasar%2FUsuarios?page-id=0%3A1&node-id=2%3A12&viewport=248%2C308%2C0.35&scaling=min-zoom&starting-point-node-id=2%3A12",
+        },
         {
             title: "Categorias",
             Icon: BiCategory,
@@ -202,8 +206,14 @@ const NavBar = () => {
             title: "Proveedores",
             Icon: IoBusinessOutline,
             sublist: [
-                { subtitle: "Nombre", url: "" },
-                { subtitle: "Usuarios", url: "" },
+                {
+                    subtitle: "Nombre",
+                    url: "https://www.figma.com/proto/IhkRSihxQXMwdvf8sGH08N/Quasar%2FProveedores%2FNombe?page-id=0%3A1&node-id=1%3A2&viewport=694%2C579%2C0.71&scaling=min-zoom&starting-point-node-id=1%3A2",
+                },
+                {
+                    subtitle: "Usuarios",
+                    url: "https://www.figma.com/proto/3GM2jAP5wiuddBXDCEnXcO/Quasar%2FProveedores%2FUsuarios?page-id=0%3A1&node-id=1%3A2&viewport=642%2C443%2C0.57&scaling=min-zoom&starting-point-node-id=1%3A2",
+                },
             ],
         },
         {
@@ -214,7 +224,7 @@ const NavBar = () => {
         {
             title: "Elementos",
             Icon: FiPackage,
-            url: "https://www.figma.com/proto/YJupVGMhpsw69FjplcLAzw/Quasar%2FPlacas?page-id=0%3A1&node-id=1%3A198&viewport=390%2C451%2C0.59&scaling=min-zoom&starting-point-node-id=1%3A198",
+            url: "https://www.figma.com/proto/jco1OUTBeE9nzIa4Y7TlLI/Quasar%2FElementos?page-id=0%3A1&node-id=1%3A2&viewport=854%2C690%2C0.79&scaling=min-zoom",
         },
         {
             title: "No Quasar",
@@ -224,19 +234,52 @@ const NavBar = () => {
         {
             title: "Relevamientos",
             Icon: TfiRulerAlt,
+            sublist: [
+                {
+                    subtitle: "Formularios",
+                    url: "https://www.figma.com/proto/eaKVSceCGYmIW3i4NvqYpu/Quasar%2FRelevamientos%2FFormularios?page-id=0%3A1&node-id=2%3A2&viewport=693%2C477%2C0.55&scaling=min-zoom&starting-point-node-id=2%3A2",
+                },
+                {
+                    subtitle: "Categorias",
+                    url: "https://www.figma.com/proto/7s9LXhk1ZBNhCKASX5SwRc/Quasar%2FRelevamientos%2FCategor%C3%ADas(tren)?page-id=0%3A1&node-id=2%3A112&viewport=129%2C296%2C0.4&scaling=min-zoom&starting-point-node-id=2%3A112",
+                },
+                {
+                    subtitle: "Tipo de Bandeja",
+                    url: "https://www.figma.com/proto/45W1DfNxgAgt5oIwpauvMO/Quasar%2FRelevamientos%2FTipo-de-Bandeja?page-id=0%3A1&node-id=1%3A133&viewport=-645%2C160%2C0.74&scaling=min-zoom&starting-point-node-id=1%3A133",
+                },
+                {
+                    subtitle: "Lista",
+                    url: "https://www.figma.com/proto/hYWYAp7TvcIDrZm4ybVur7/Quasar%2FRelevamientos%2FLista?page-id=0%3A1&node-id=1%3A68&viewport=380%2C506%2C0.44&scaling=min-zoom&starting-point-node-id=1%3A68",
+                },
+            ],
         },
     ];
     return (
         <aside>
             <nav>
                 <div className="logo">
-                    <img src={Logo} alt="logo"></img>
+                    <img
+                        src={Logo}
+                        alt="logo"
+                    ></img>
                     <h1>Quasar</h1>
                 </div>
-                <NavSection title={"REPORTES"} list={reportes} />
-                <NavSection title={"MODULOS"} list={modulos} />
-                <NavSection title={"ADMINISTRACIÓN"} list={administracion} />
-                <NavSection title={"BASE DE DATOS"} list={dataBase} />
+                <NavSection
+                    title={"REPORTES"}
+                    list={reportes}
+                />
+                <NavSection
+                    title={"MODULOS"}
+                    list={modulos}
+                />
+                <NavSection
+                    title={"ADMINISTRACIÓN"}
+                    list={administracion}
+                />
+                <NavSection
+                    title={"BASE DE DATOS"}
+                    list={dataBase}
+                />
             </nav>
         </aside>
     );
