@@ -64,7 +64,10 @@ const NavBar = () => {
             title: "Mantenimientos",
             Icon: BsTools,
             sublist: [
-                { subtitle: "Lista de Mantenimientos", url: "google.com" },
+                {
+                    subtitle: "Lista de Mantenimientos",
+                    url: "https://www.figma.com/proto/lfmKbn8DFUzIrAlXKzUhT6/Quasar%2FLista-de-Mantenimientos?page-id=0%3A1&node-id=2%3A39&viewport=286%2C130%2C0.32&scaling=min-zoom&starting-point-node-id=2%3A39",
+                },
                 {
                     subtitle: "Solicitud de Mantenimiento",
                     url: "https://www.figma.com/proto/76H2CjDe1TOTHPl5IAMLsV/Quasar%2FSolicitud-de-Mantenimientos?page-id=0%3A1&node-id=1%3A41&viewport=692%2C403%2C0.19&scaling=min-zoom&starting-point-node-id=1%3A41",
