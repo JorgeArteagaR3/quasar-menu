@@ -20,8 +20,11 @@ import { FaWarehouse, FaUsers } from "react-icons/fa";
 import { TfiRulerAlt } from "react-icons/tfi";
 import { IoBusinessOutline } from "react-icons/io5";
 import { CgExtensionRemove } from "react-icons/cg";
+import { AiOutlinePushpin } from "react-icons/ai";
+import { useState } from "react";
 
 const NavBar = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const reportes = [
         {
             title: "Dashboard",
@@ -94,6 +97,10 @@ const NavBar = () => {
                 {
                     subtitle: "Busqueda",
                     url: "https://www.figma.com/proto/9GjLnFsuh1oNr4PgkemuCp/Quasar%2FTransporte?page-id=0%3A1&node-id=1%3A2&viewport=491%2C412%2C0.15&scaling=min-zoom&starting-point-node-id=1%3A2",
+                },
+                {
+                    subtitle: "Solicitar Transporte",
+                    url: "https://www.figma.com/proto/BdZnSzX7ykRxcQ4w8lLEt3/Quasar%2FTransporte%2FSolicitar-Transporte?page-id=0%3A1&node-id=1%3A21&viewport=718%2C477%2C0.21&scaling=min-zoom",
                 },
             ],
         },
@@ -258,8 +265,14 @@ const NavBar = () => {
         },
     ];
     return (
-        <aside>
-            <nav>
+        <aside className={isMenuOpen ? "menu wrapped" : "menu"}>
+            <AiOutlinePushpin
+                className={isMenuOpen ? "hide hide-active" : "hide"}
+                onClick={() => {
+                    setIsMenuOpen(!isMenuOpen);
+                }}
+            />
+            <nav className={isMenuOpen && "inactive"}>
                 <div className="logo">
                     <img
                         src={Logo}
