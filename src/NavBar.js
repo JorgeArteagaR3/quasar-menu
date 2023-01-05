@@ -21,6 +21,8 @@ import { TfiRulerAlt } from "react-icons/tfi";
 import { IoBusinessOutline } from "react-icons/io5";
 import { CgExtensionRemove } from "react-icons/cg";
 import { AiOutlinePushpin } from "react-icons/ai";
+import { BsCardHeading } from "react-icons/bs";
+
 import { useState } from "react";
 
 const NavBar = () => {
@@ -29,37 +31,37 @@ const NavBar = () => {
         {
             title: "Dashboard",
             Icon: FiHome,
-            url: "https://www.figma.com/proto/CeOGr90oIW1xfVW3O9DsCs/Quasar%2FDashboard?page-id=0%3A1&node-id=22%3A3&viewport=942%2C750%2C0.29&scaling=min-zoom&starting-point-node-id=22%3A3",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCeOGr90oIW1xfVW3O9DsCs%2FQuasar%252FDashboard%3Fnode-id%3D22%253A3%26starting-point-node-id%3D22%253A3%26scaling%3Dscale-down",
         },
         {
             title: "Campañas",
             Icon: FiCalendar,
-            url: "https://www.figma.com/proto/ALmWw4QB27ar8XZ1aUA1Eb/Quasar%2FCampa%C3%B1a%2FProceso?page-id=0%3A1&node-id=1%3A2&viewport=120%2C194%2C0.13&scaling=min-zoom&starting-point-node-id=1%3A2",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FALmWw4QB27ar8XZ1aUA1Eb%2FQuasar%252FCampa%25C3%25B1a%252FProceso%3Fnode-id%3D1%253A2%26starting-point-node-id%3D1%253A2%26scaling%3Dscale-down",
         },
         {
             title: "Inventarios",
             Icon: MdOutlineInventory2,
-            url: "https://www.figma.com/proto/3ccTyvEYriw2CY0Zk5oXd4/Quasar%2FInventarios?page-id=0%3A1&node-id=51%3A38&viewport=1033%2C352%2C0.11&scaling=min-zoom&starting-point-node-id=51%3A38",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3ccTyvEYriw2CY0Zk5oXd4%2FQuasar%252FInventarios%3Fpage-id%3D0%253A1%26node-id%3D51%253A38%26viewport%3D1033%252C352%252C0.11%26scaling%3Dscale-down%26starting-point-node-id%3D51%253A38",
         },
         {
             title: "Notificaciones",
             Icon: BiBell,
-            url: "https://www.figma.com/proto/afo3nKwwNUzJuI40pZ0o9Y/Quasar%2FTodas-las-Notificaciones?page-id=0%3A1&node-id=1%3A27&viewport=795%2C800%2C0.76&scaling=min-zoom",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fafo3nKwwNUzJuI40pZ0o9Y%2FQuasar%252FTodas-las-Notificaciones%3Fpage-id%3D0%253A1%26node-id%3D1%253A27%26viewport%3D795%252C800%252C0.76%26scaling%3Dscale-down",
         },
         {
             title: "Pendientes",
             Icon: MdPendingActions,
-            url: "https://www.figma.com/proto/YB5Q8ZWaUo6kma88WXr6yF/Quasar%2FPendientes?page-id=0%3A1&node-id=36%3A131&viewport=525%2C341%2C0.07&scaling=min-zoom&starting-point-node-id=36%3A131&show-proto-sidebar=1",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYB5Q8ZWaUo6kma88WXr6yF%2FQuasar%252FPendientes%3Fpage-id%3D0%253A1%26node-id%3D36%253A131%26viewport%3D525%252C341%252C0.07%26scaling%3Dscale-down%26starting-point-node-id%3D36%253A131%26show-proto-sidebar%3D1",
         },
         {
             title: "Incidencias",
             Icon: RiErrorWarningLine,
-            url: "https://www.figma.com/proto/MGHSRMTcx6iMCjWL46gN2d/Quasar%2FIncidencias?page-id=0%3A1&node-id=4%3A173&viewport=1291%2C518%2C0.43&scaling=min-zoom&starting-point-node-id=4%3A173",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMGHSRMTcx6iMCjWL46gN2d%2FQuasar%252FIncidencias%3Fpage-id%3D0%253A1%26node-id%3D4%253A173%26viewport%3D1291%252C518%252C0.43%26scaling%3Dcontain%26starting-point-node-id%3D4%253A173",
         },
         {
             title: "Rutas",
             Icon: TbRoute,
-            url: "https://www.figma.com/proto/HUsWlQmM1AThXr1E53a100/Quasar%2FRutas-Reportes?page-id=0%3A1&node-id=1%3A52&viewport=414%2C87%2C0.07&scaling=min-zoom&starting-point-node-id=1%3A52&show-proto-sidebar=1",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FHUsWlQmM1AThXr1E53a100%2FQuasar%252FRutas-Reportes%3Fpage-id%3D0%253A1%26node-id%3D1%253A52%26viewport%3D414%252C87%252C0.07%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A52%26show-proto-sidebar%3D1",
         },
     ];
     const modulos = [
@@ -69,18 +71,18 @@ const NavBar = () => {
             sublist: [
                 {
                     subtitle: "Lista de Mantenimientos",
-                    url: "https://www.figma.com/proto/lfmKbn8DFUzIrAlXKzUhT6/Quasar%2FLista-de-Mantenimientos?page-id=0%3A1&node-id=2%3A39&viewport=286%2C130%2C0.32&scaling=min-zoom&starting-point-node-id=2%3A39",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlfmKbn8DFUzIrAlXKzUhT6%2FQuasar%252FLista-de-Mantenimientos%3Fpage-id%3D0%253A1%26node-id%3D2%253A39%26viewport%3D286%252C130%252C0.32%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A39",
                 },
                 {
                     subtitle: "Solicitud de Mantenimiento",
-                    url: "https://www.figma.com/proto/76H2CjDe1TOTHPl5IAMLsV/Quasar%2FSolicitud-de-Mantenimientos?page-id=0%3A1&node-id=1%3A41&viewport=692%2C403%2C0.19&scaling=min-zoom&starting-point-node-id=1%3A41",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F76H2CjDe1TOTHPl5IAMLsV%2FQuasar%252FSolicitud-de-Mantenimientos%3Fpage-id%3D0%253A1%26node-id%3D1%253A41%26viewport%3D692%252C403%252C0.19%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A41",
                 },
             ],
         },
         {
             title: "No Quasar",
             Icon: TbBuildingWarehouse,
-            url: "https://www.figma.com/proto/PZFK0WfEqJCZdNC02RkdvS/Quasar%2FNo-Quasar?page-id=0%3A1&node-id=25%3A13&viewport=533%2C324%2C0.09&scaling=min-zoom&starting-point-node-id=25%3A13",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPZFK0WfEqJCZdNC02RkdvS%2FQuasar%252FNo-Quasar%3Fpage-id%3D0%253A1%26node-id%3D25%253A13%26viewport%3D533%252C324%252C0.09%26scaling%3Dscale-down%26starting-point-node-id%3D25%253A13",
         },
         {
             title: "Transporte",
@@ -88,46 +90,46 @@ const NavBar = () => {
             sublist: [
                 {
                     subtitle: "Solicitudes de Transporte",
-                    url: "https://www.figma.com/proto/9GjLnFsuh1oNr4PgkemuCp/Quasar%2FTransporte?page-id=0%3A1&node-id=1%3A2&viewport=491%2C412%2C0.15&scaling=min-zoom&starting-point-node-id=1%3A2",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9GjLnFsuh1oNr4PgkemuCp%2FQuasar%252FTransporte%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D491%252C412%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
                 },
                 {
                     subtitle: "Rutas Generadas",
-                    url: "https://www.figma.com/proto/9GjLnFsuh1oNr4PgkemuCp/Quasar%2FTransporte?page-id=0%3A1&node-id=1%3A2&viewport=491%2C412%2C0.15&scaling=min-zoom&starting-point-node-id=1%3A2",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9GjLnFsuh1oNr4PgkemuCp%2FQuasar%252FTransporte%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D491%252C412%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
                 },
                 {
                     subtitle: "Busqueda",
-                    url: "https://www.figma.com/proto/9GjLnFsuh1oNr4PgkemuCp/Quasar%2FTransporte?page-id=0%3A1&node-id=1%3A2&viewport=491%2C412%2C0.15&scaling=min-zoom&starting-point-node-id=1%3A2",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9GjLnFsuh1oNr4PgkemuCp%2FQuasar%252FTransporte%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D491%252C412%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
                 },
                 {
                     subtitle: "Solicitar Transporte",
-                    url: "https://www.figma.com/proto/BdZnSzX7ykRxcQ4w8lLEt3/Quasar%2FTransporte%2FSolicitar-Transporte?page-id=0%3A1&node-id=1%3A21&viewport=718%2C477%2C0.21&scaling=min-zoom",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBdZnSzX7ykRxcQ4w8lLEt3%2FQuasar%252FTransporte%252FSolicitar-Transporte%3Fpage-id%3D0%253A1%26node-id%3D1%253A21%26viewport%3D718%252C477%252C0.21%26scaling%3Dscale-down",
                 },
             ],
         },
         {
             title: "Producción",
             Icon: FiBox,
-            url: "https://www.figma.com/proto/mSeXVsscWJbCeWKanmmQKd/Quasar%2FProducci%C3%B3n?page-id=0%3A1&node-id=1%3A164&viewport=402%2C265%2C0.14&scaling=min-zoom&starting-point-node-id=1%3A164&show-proto-sidebar=1",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmSeXVsscWJbCeWKanmmQKd%2FQuasar%252FProducci%25C3%25B3n%3Fpage-id%3D0%253A1%26node-id%3D1%253A164%26viewport%3D402%252C265%252C0.14%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A164%26show-proto-sidebar%3D1",
         },
         {
             title: "Reposiciones",
             Icon: TbReplace,
-            url: "https://www.figma.com/proto/JLkzuCeh64jdq8vkXoM0EI/Quasar%2FReposiciones?page-id=0%3A1&node-id=13%3A2&viewport=733%2C552%2C0.1&scaling=min-zoom&starting-point-node-id=13%3A2",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FJLkzuCeh64jdq8vkXoM0EI%2FQuasar%252FReposiciones%3Fpage-id%3D0%253A1%26node-id%3D13%253A2%26viewport%3D733%252C552%252C0.1%26scaling%3Dscale-down%26starting-point-node-id%3D13%253A2",
         },
         {
             title: "Desinstalaciones",
             Icon: CgExtensionRemove,
-            url: "https://www.figma.com/proto/ZDe5lI8NeKidGorveuQz7S/Quasar%2FDesinstalaciones?page-id=0%3A1&node-id=1%3A3&viewport=-68%2C124%2C0.27&scaling=min-zoom&starting-point-node-id=1%3A3",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZDe5lI8NeKidGorveuQz7S%2FQuasar%252FDesinstalaciones%3Fpage-id%3D0%253A1%26node-id%3D1%253A3%26viewport%3D-68%252C124%252C0.27%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A3",
         },
         {
             title: "Almacen",
             Icon: FaWarehouse,
-            url: "https://www.figma.com/proto/Ywdo442bm6gGxiN1ngHaUD/Quasar%2FAlmacen?page-id=0%3A1&node-id=1%3A94&viewport=725%2C494%2C0.42&scaling=min-zoom&starting-point-node-id=1%3A94",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYwdo442bm6gGxiN1ngHaUD%2FQuasar%252FAlmacen%3Fpage-id%3D0%253A1%26node-id%3D1%253A94%26viewport%3D725%252C494%252C0.42%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A94",
         },
         {
             title: "Relevamientos",
             Icon: TfiRulerAlt,
-            url: "https://www.figma.com/proto/4g4qQAL7pX0Q2kSD9PtZdH/Quasar%2FRelevamientos?page-id=0%3A1&node-id=9%3A454&viewport=544%2C465%2C0.09&scaling=min-zoom&starting-point-node-id=9%3A454",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F4g4qQAL7pX0Q2kSD9PtZdH%2FQuasar%252FRelevamientos%3Fpage-id%3D0%253A1%26node-id%3D9%253A454%26viewport%3D544%252C465%252C0.09%26scaling%3Dscale-down%26starting-point-node-id%3D9%253A454",
         },
     ];
     const administracion = [
@@ -137,23 +139,23 @@ const NavBar = () => {
             sublist: [
                 {
                     subtitle: "Lista",
-                    url: "https://www.figma.com/proto/eAuVK5oKSxQdCOByUpFvPF/Quasar%2FCampa%C3%B1a%2FLista?page-id=0%3A1&node-id=145%3A289&viewport=445%2C322%2C0.16&scaling=min-zoom&starting-point-node-id=145%3A289",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FeAuVK5oKSxQdCOByUpFvPF%2FQuasar%252FCampa%25C3%25B1a%252FLista%3Fpage-id%3D0%253A1%26node-id%3D145%253A289%26viewport%3D445%252C322%252C0.16%26scaling%3Dscale-down%26starting-point-node-id%3D145%253A289",
                 },
                 {
                     subtitle: "Crear Campaña",
-                    url: "https://www.figma.com/proto/8gzsZGygHuD4f3ny6wGHEU/Quasar%2FCampa%C3%B1a%2FCrear-Campa%C3%B1a?page-id=0%3A1&node-id=1%3A150&viewport=794%2C532%2C0.22&scaling=min-zoom&starting-point-node-id=1%3A150",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8gzsZGygHuD4f3ny6wGHEU%2FQuasar%252FCampa%25C3%25B1a%252FCrear-Campa%25C3%25B1a%3Fpage-id%3D0%253A1%26node-id%3D1%253A150%26viewport%3D794%252C532%252C0.22%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A150",
                 },
             ],
         },
         {
             title: "Notificaciones",
             Icon: BiBell,
-            url: "https://www.figma.com/proto/ISfMVe40E8w7FOPLx4pr1y/Quasar%2FAdministrar-Notificaciones?page-id=0%3A1&node-id=2%3A8&viewport=529%2C658%2C0.26&scaling=min-zoom&starting-point-node-id=2%3A8",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FISfMVe40E8w7FOPLx4pr1y%2FQuasar%252FAdministrar-Notificaciones%3Fpage-id%3D0%253A1%26node-id%3D2%253A8%26viewport%3D529%252C658%252C0.26%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A8",
         },
         {
             title: "Roles",
             Icon: FiUser,
-            url: "https://www.figma.com/proto/8xoVBEeTqECt5pmLDHCDcR/Quasar%2FGestionar-Roles?page-id=0%3A1&node-id=1%3A137&viewport=358%2C121%2C0.34&scaling=min-zoom&starting-point-node-id=1%3A137",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8xoVBEeTqECt5pmLDHCDcR%2FQuasar%252FGestionar-Roles%3Fpage-id%3D0%253A1%26node-id%3D1%253A137%26viewport%3D358%252C121%252C0.34%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A137",
         },
     ];
     const dataBase = [
@@ -163,26 +165,26 @@ const NavBar = () => {
             sublist: [
                 {
                     subtitle: "Grupo Económico",
-                    url: "https://www.figma.com/proto/Nt0fSwRDzFIfGAu8EFaxxp/Quasar%2FTiendas%2FGrupo-Economico?page-id=0%3A1&node-id=1%3A3&viewport=-17%2C-3436%2C2.13&scaling=min-zoom&starting-point-node-id=1%3A3",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNt0fSwRDzFIfGAu8EFaxxp%2FQuasar%252FTiendas%252FGrupo-Economico%3Fpage-id%3D0%253A1%26node-id%3D1%253A3%26viewport%3D-17%252C-3436%252C2.13%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A3",
                 },
                 {
                     subtitle: "Cadenas",
-                    url: "https://www.figma.com/proto/cLmPhTCpSAOG2ruhOeLivL/Quasar%2FTiendas%2FCadenas?page-id=0%3A1&node-id=1%3A2&viewport=728%2C134%2C0.17&scaling=min-zoom&starting-point-node-id=1%3A2",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcLmPhTCpSAOG2ruhOeLivL%2FQuasar%252FTiendas%252FCadenas%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D728%252C134%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
                 },
                 {
                     subtitle: "Formato de Tienda",
-                    url: "https://www.figma.com/proto/QZFrTm22DM5IzEHWqs5SrB/Quasar%2FTiendas%2FFormato-de-Tienda?page-id=0%3A1&node-id=1%3A306&viewport=631%2C-26%2C0.39&scaling=min-zoom&starting-point-node-id=1%3A306",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQZFrTm22DM5IzEHWqs5SrB%2FQuasar%252FTiendas%252FFormato-de-Tienda%3Fpage-id%3D0%253A1%26node-id%3D1%253A306%26viewport%3D631%252C-26%252C0.39%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A306",
                 },
                 {
                     subtitle: "Tienda",
-                    url: "https://www.figma.com/proto/4B0hvJWCKNWjGt0QeGHps9/Quasar%2FTiendas%2FTienda?page-id=0%3A1&node-id=0%3A1&viewport=867%2C-407%2C0.41&scaling=min-zoom&starting-point-node-id=1%3A2",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F4B0hvJWCKNWjGt0QeGHps9%2FQuasar%252FTiendas%252FTienda%3Fnode-id%3D1%253A2%26starting-point-node-id%3D1%253A2%26scaling%3Dscale-down",
                 },
             ],
         },
         {
             title: "Usuarios",
             Icon: FiUsers,
-            url: "https://www.figma.com/proto/aIWzrz7plNXBM1TSjPEQ9Q/Quasar%2FUsuarios?page-id=0%3A1&node-id=2%3A12&viewport=248%2C308%2C0.35&scaling=min-zoom&starting-point-node-id=2%3A12",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaIWzrz7plNXBM1TSjPEQ9Q%2FQuasar%252FUsuarios%3Fpage-id%3D0%253A1%26node-id%3D2%253A12%26viewport%3D248%252C308%252C0.35%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A12",
         },
         {
             title: "Categorias",
@@ -190,27 +192,27 @@ const NavBar = () => {
             sublist: [
                 {
                     subtitle: "Categoría Master",
-                    url: "https://www.figma.com/proto/0tNj9PLqLdPpnepH98lTyC/Quasar%2FCategor%C3%ADas?page-id=0%3A1&node-id=43%3A86&viewport=1615%2C1246%2C0.39&scaling=min-zoom&starting-point-node-id=43%3A86",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0tNj9PLqLdPpnepH98lTyC%2FQuasar%252FCategor%25C3%25ADas%3Fpage-id%3D0%253A1%26node-id%3D43%253A86%26viewport%3D1615%252C1246%252C0.39%26scaling%3Dscale-down%26starting-point-node-id%3D43%253A86",
                 },
                 {
                     subtitle: "Categoría Padre",
-                    url: "https://www.figma.com/proto/0tNj9PLqLdPpnepH98lTyC/Quasar%2FCategor%C3%ADas?page-id=0%3A1&node-id=43%3A86&viewport=1615%2C1246%2C0.39&scaling=min-zoom&starting-point-node-id=43%3A86",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0tNj9PLqLdPpnepH98lTyC%2FQuasar%252FCategor%25C3%25ADas%3Fpage-id%3D0%253A1%26node-id%3D43%253A86%26viewport%3D1615%252C1246%252C0.39%26scaling%3Dscale-down%26starting-point-node-id%3D43%253A86",
                 },
                 {
                     subtitle: "Categoria",
-                    url: "https://www.figma.com/proto/0tNj9PLqLdPpnepH98lTyC/Quasar%2FCategor%C3%ADas?page-id=0%3A1&node-id=43%3A86&viewport=1615%2C1246%2C0.39&scaling=min-zoom&starting-point-node-id=43%3A86",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0tNj9PLqLdPpnepH98lTyC%2FQuasar%252FCategor%25C3%25ADas%3Fpage-id%3D0%253A1%26node-id%3D43%253A86%26viewport%3D1615%252C1246%252C0.39%26scaling%3Dscale-down%26starting-point-node-id%3D43%253A86",
                 },
             ],
         },
         {
             title: "Clientes",
             Icon: FaUsers,
-            url: "https://www.figma.com/proto/dZkt8XN9yBClYzKXDCQ8Ua/Quasar%2FClientes?page-id=0%3A1&node-id=2%3A148&viewport=400%2C515%2C0.44&scaling=min-zoom&starting-point-node-id=2%3A148",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FdZkt8XN9yBClYzKXDCQ8Ua%2FQuasar%252FClientes%3Fpage-id%3D0%253A1%26node-id%3D2%253A148%26viewport%3D400%252C515%252C0.44%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A148",
         },
         {
             title: "Motivos y Submotivos",
             Icon: FiCheckCircle,
-            url: "https://www.figma.com/proto/FBC2LeZVeHExUESfALUkmu/Quasar%2FMotivos-y-Submotivos?page-id=0%3A1&node-id=1%3A241&viewport=-2831%2C383%2C0.93&scaling=min-zoom&starting-point-node-id=1%3A241",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFBC2LeZVeHExUESfALUkmu%2FQuasar%252FMotivos-y-Submotivos%3Fpage-id%3D0%253A1%26node-id%3D1%253A241%26viewport%3D-2831%252C383%252C0.93%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A241",
         },
         {
             title: "Proveedores",
@@ -218,28 +220,28 @@ const NavBar = () => {
             sublist: [
                 {
                     subtitle: "Nombre",
-                    url: "https://www.figma.com/proto/IhkRSihxQXMwdvf8sGH08N/Quasar%2FProveedores%2FNombe?page-id=0%3A1&node-id=1%3A2&viewport=694%2C579%2C0.71&scaling=min-zoom&starting-point-node-id=1%3A2",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIhkRSihxQXMwdvf8sGH08N%2FQuasar%252FProveedores%252FNombe%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D694%252C579%252C0.71%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
                 },
                 {
                     subtitle: "Usuarios",
-                    url: "https://www.figma.com/proto/3GM2jAP5wiuddBXDCEnXcO/Quasar%2FProveedores%2FUsuarios?page-id=0%3A1&node-id=1%3A2&viewport=642%2C443%2C0.57&scaling=min-zoom&starting-point-node-id=1%3A2",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3GM2jAP5wiuddBXDCEnXcO%2FQuasar%252FProveedores%252FUsuarios%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D642%252C443%252C0.57%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
                 },
             ],
         },
         {
             title: "Placas",
-            Icon: IoBusinessOutline,
-            url: "https://www.figma.com/proto/YJupVGMhpsw69FjplcLAzw/Quasar%2FTransporteBD?page-id=0%3A1&node-id=1%3A198&viewport=438%2C367%2C0.41&scaling=min-zoom&starting-point-node-id=1%3A198",
+            Icon: BsCardHeading,
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYJupVGMhpsw69FjplcLAzw%2FQuasar%252FPlacas%3Fpage-id%3D0%253A1%26node-id%3D1%253A198%26viewport%3D438%252C367%252C0.41%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A198",
         },
         {
             title: "Elementos",
             Icon: FiPackage,
-            url: "https://www.figma.com/proto/jco1OUTBeE9nzIa4Y7TlLI/Quasar%2FElementos?page-id=0%3A1&node-id=1%3A2&viewport=854%2C690%2C0.79&scaling=min-zoom",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fjco1OUTBeE9nzIa4Y7TlLI%2FQuasar%252FElementos%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D854%252C690%252C0.79%26scaling%3Dscale-down",
         },
         {
             title: "No Quasar",
             Icon: TbBuildingWarehouse,
-            url: "https://www.figma.com/proto/AiKnP7LASAsbnvIiRBZRmD/Quasar%2FNo-Quasar-BD?page-id=0%3A1&node-id=1%3A10&viewport=-209%2C412%2C0.68&scaling=min-zoom&starting-point-node-id=1%3A10",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FAiKnP7LASAsbnvIiRBZRmD%2FQuasar%252FNo-Quasar-BD%3Fpage-id%3D0%253A1%26node-id%3D1%253A10%26viewport%3D-209%252C412%252C0.68%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A10",
         },
         {
             title: "Relevamientos",
@@ -247,19 +249,19 @@ const NavBar = () => {
             sublist: [
                 {
                     subtitle: "Formularios",
-                    url: "https://www.figma.com/proto/eaKVSceCGYmIW3i4NvqYpu/Quasar%2FRelevamientos%2FFormularios?page-id=0%3A1&node-id=2%3A2&viewport=693%2C477%2C0.55&scaling=min-zoom&starting-point-node-id=2%3A2",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FeaKVSceCGYmIW3i4NvqYpu%2FQuasar%252FRelevamientos%252FFormularios%3Fpage-id%3D0%253A1%26node-id%3D2%253A2%26viewport%3D693%252C477%252C0.55%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A2",
                 },
                 {
                     subtitle: "Categorias",
-                    url: "https://www.figma.com/proto/7s9LXhk1ZBNhCKASX5SwRc/Quasar%2FRelevamientos%2FCategor%C3%ADas(tren)?page-id=0%3A1&node-id=2%3A112&viewport=129%2C296%2C0.4&scaling=min-zoom&starting-point-node-id=2%3A112",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7s9LXhk1ZBNhCKASX5SwRc%2FQuasar%252FRelevamientos%252FCategor%25C3%25ADas(tren)%3Fpage-id%3D0%253A1%26node-id%3D2%253A112%26viewport%3D129%252C296%252C0.4%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A112",
                 },
                 {
                     subtitle: "Tipo de Bandeja",
-                    url: "https://www.figma.com/proto/45W1DfNxgAgt5oIwpauvMO/Quasar%2FRelevamientos%2FTipo-de-Bandeja?page-id=0%3A1&node-id=1%3A133&viewport=-645%2C160%2C0.74&scaling=min-zoom&starting-point-node-id=1%3A133",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F45W1DfNxgAgt5oIwpauvMO%2FQuasar%252FRelevamientos%252FTipo-de-Bandeja%3Fpage-id%3D0%253A1%26node-id%3D1%253A133%26viewport%3D-645%252C160%252C0.74%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A133",
                 },
                 {
                     subtitle: "Lista",
-                    url: "https://www.figma.com/proto/hYWYAp7TvcIDrZm4ybVur7/Quasar%2FRelevamientos%2FLista?page-id=0%3A1&node-id=1%3A68&viewport=380%2C506%2C0.44&scaling=min-zoom&starting-point-node-id=1%3A68",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhYWYAp7TvcIDrZm4ybVur7%2FQuasar%252FRelevamientos%252FLista%3Fpage-id%3D0%253A1%26node-id%3D1%253A68%26viewport%3D380%252C506%252C0.44%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A68",
                 },
             ],
         },

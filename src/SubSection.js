@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { PreviewContext } from "./App";
 
 const SubSection = ({ item }) => {
     const [isSubListOpen, setIsSubListOpen] = useState(false);
+    const { setPreview } = useContext(PreviewContext);
     return (
         <div className="list">
             <div
@@ -15,16 +17,18 @@ const SubSection = ({ item }) => {
                     setIsSubListOpen(!isSubListOpen);
                 }}
             >
-                <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noreferrer"
+                <p
+                    onClick={() => {
+                        if (item.url) {
+                            setPreview(item.url);
+                        }
+                    }}
                 >
                     <li className={isSubListOpen ? "list-item" : "list-item"}>
                         <item.Icon className="icon" />
                         {item.title}
                     </li>
-                </a>
+                </p>
                 {item?.sublist && (
                     <MdKeyboardArrowRight
                         className={
@@ -35,15 +39,15 @@ const SubSection = ({ item }) => {
             </div>
             <div className="sub-items">
                 {item?.sublist?.map((subitem) => (
-                    <a
-                        href={subitem?.url}
+                    <p
                         key={subitem.subtitle}
                         className={isSubListOpen ? "sub-item" : "inactive"}
-                        target="_blank"
-                        rel="noreferrer"
+                        onClick={() => {
+                            subitem.url && setPreview(subitem.url);
+                        }}
                     >
                         <div className="circle"></div> {subitem.subtitle}
-                    </a>
+                    </p>
                 ))}
             </div>
         </div>
