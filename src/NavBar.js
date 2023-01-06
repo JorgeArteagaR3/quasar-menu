@@ -124,7 +124,16 @@ const NavBar = () => {
         {
             title: "Almacen",
             Icon: FaWarehouse,
-            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYwdo442bm6gGxiN1ngHaUD%2FQuasar%252FAlmacen%3Fpage-id%3D0%253A1%26node-id%3D1%253A94%26viewport%3D725%252C494%252C0.42%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A94",
+
+            sublist: [
+                {
+                    subtitle: "Recepción de Elementos",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYwdo442bm6gGxiN1ngHaUD%2FQuasar%252FAlmacen%3Fpage-id%3D0%253A1%26node-id%3D1%253A94%26viewport%3D725%252C494%252C0.42%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A94",
+                },
+                { subtitle: "Kardex", url: "" },
+                { subtitle: "Status Proveedor", url: "" },
+                { subtitle: "Despacho de elementos", url: "" },
+            ],
         },
         {
             title: "Relevamientos",
