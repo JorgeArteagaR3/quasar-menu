@@ -127,12 +127,25 @@ const NavBar = () => {
 
             sublist: [
                 {
-                    subtitle: "Recepción de Elementos",
+                    subtitle: "Pendientes de Ingreso",
                     url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYwdo442bm6gGxiN1ngHaUD%2FQuasar%252FAlmacen%3Fpage-id%3D0%253A1%26node-id%3D1%253A94%26viewport%3D725%252C494%252C0.42%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A94",
                 },
-                { subtitle: "Kardex", url: "" },
-                { subtitle: "Status Proveedor", url: "" },
-                { subtitle: "Despacho de elementos", url: "" },
+                {
+                    subtitle: "Inventario",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKvdTUR9jCfD0nN3hcQ0zWd%2FQuasar%252FAlmacen%252FInventario%3Fpage-id%3D0%253A1%26node-id%3D1%253A58%26viewport%3D-1057%252C162%252C0.76%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A58",
+                },
+                {
+                    subtitle: "Kardex",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fzio2Luvf6Sn98BtkGuKchb%2FQuasar%252FAlmacen%252FKardex%3Fpage-id%3D0%253A1%26node-id%3D0%253A172%26viewport%3D521%252C343%252C0.27%26scaling%3Dscale-down%26starting-point-node-id%3D0%253A172",
+                },
+                {
+                    subtitle: "Status Proveedor",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FJBGUjYKIQ7khMPht4B0w1Q%2FQuasar%252FTransporte%252FStatus-Proveedor%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D714%252C541%252C0.8%26scaling%3Dscale-down",
+                },
+                {
+                    subtitle: "Despacho de elementos",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVr42YGA8Xud77RCmq92kCg%2FQuasar%252FAlmacen%252FDespacho-de-Elementos%3Fpage-id%3D0%253A1%26node-id%3D3%253A211%26viewport%3D1496%252C459%252C0.56%26scaling%3Dscale-down",
+                },
             ],
         },
         {
