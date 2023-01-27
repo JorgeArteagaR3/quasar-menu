@@ -140,7 +140,7 @@ const NavBar = () => {
                 },
                 {
                     subtitle: "Status Proveedor",
-                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FJBGUjYKIQ7khMPht4B0w1Q%2FQuasar%252FTransporte%252FStatus-Proveedor%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D714%252C541%252C0.8%26scaling%3Dscale-down",
+                    url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjzQUalUG5MV01xP4u2d3bH%2FQuasar%252FAlmacen%252FStatus-Proveedor%3Fpage-id%3D0%253A1%26node-id%3D1%253A271%26viewport%3D311%252C347%252C0.19%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A271",
                 },
                 {
                     subtitle: "Despacho de elementos",
