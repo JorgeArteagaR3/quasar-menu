@@ -234,7 +234,7 @@ const NavBar = () => {
         {
             title: "Motivos y Submotivos",
             Icon: FiCheckCircle,
-            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFBC2LeZVeHExUESfALUkmu%2FQuasar%252FMotivos-y-Submotivos%3Fpage-id%3D0%253A1%26node-id%3D1%253A241%26viewport%3D-2831%252C383%252C0.93%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A241",
+            url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFBC2LeZVeHExUESfALUkmu%2FQuasar%252FMotivos-y-Submotivos%3Fpage-id%3D0%253A1%26node-id%3D109%253A26%26viewport%3D345%252C387%252C0.63%26scaling%3Dmin-zoom%26starting-point-node-id%3D109%253A26",
         },
         {
             title: "Proveedores",
