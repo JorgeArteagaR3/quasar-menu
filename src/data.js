@@ -89,15 +89,15 @@ export const modulos = [
         sublist: [
             {
                 subtitle: "Solicitudes de Transporte",
-                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9GjLnFsuh1oNr4PgkemuCp%2FQuasar%252FTransporte%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D491%252C412%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9GjLnFsuh1oNr4PgkemuCp%2FQuasar%252FTransporte%252FSolicitudes-de-Transporte%3Fpage-id%3D0%253A1%26node-id%3D1-2%26viewport%3D765%252C295%252C0.23%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
             },
             {
                 subtitle: "Rutas Generadas",
-                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9GjLnFsuh1oNr4PgkemuCp%2FQuasar%252FTransporte%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D491%252C412%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2nMWvewaK6kAMQerXjqQG7%2FQuasar%252FTransporte%252FRutas-Generadas%3Fpage-id%3D0%253A1%26node-id%3D1-21%26viewport%3D178%252C532%252C0.47%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A21",
             },
             {
                 subtitle: "Busqueda",
-                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9GjLnFsuh1oNr4PgkemuCp%2FQuasar%252FTransporte%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D491%252C412%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNUunneO9dP7cir2kDFHYTb%2FQuasar%252FTransporte%252FBusqueda%3Fpage-id%3D0%253A1%26node-id%3D1-188%26viewport%3D665%252C404%252C0.2%26scaling%3Dcontain%26starting-point-node-id%3D1%253A188",
             },
             {
                 subtitle: "Solicitar Transporte",
