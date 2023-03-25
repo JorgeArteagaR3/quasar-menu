@@ -145,6 +145,10 @@ export const modulos = [
                 subtitle: "Despacho de elementos",
                 url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVr42YGA8Xud77RCmq92kCg%2FQuasar%252FAlmacen%252FDespacho-de-Elementos%3Fpage-id%3D0%253A1%26node-id%3D3%253A211%26viewport%3D1496%252C459%252C0.56%26scaling%3Dscale-down",
             },
+            {
+                subtitle: "Picking",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fa3Y37Uf0r4BFK8mtDG3klj%2FQuasar%252FAlmacen%252FPicking%3Fpage-id%3D0%253A1%26node-id%3D1-455%26viewport%3D187%252C396%252C0.55%26scaling%3Dcontain%26starting-point-node-id%3D1%253A455",
+            },
         ],
     },
     {
