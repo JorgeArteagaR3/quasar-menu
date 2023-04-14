@@ -92,6 +92,10 @@ export const modulos = [
                 url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9GjLnFsuh1oNr4PgkemuCp%2FQuasar%252FTransporte%252FSolicitudes-de-Transporte%3Fpage-id%3D0%253A1%26node-id%3D1-2%26viewport%3D765%252C295%252C0.23%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
             },
             {
+                subtitle: "Historial de Solicitudes",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZG80JavFhowx6dpB3LK4We%2FQuasar%252FTransporte%252FHistorial-de-Solicitudes%3Fpage-id%3D0%253A1%26node-id%3D1-128%26viewport%3D762%252C542%252C0.55%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A128",
+            },
+            {
                 subtitle: "Rutas Generadas",
                 url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2nMWvewaK6kAMQerXjqQG7%2FQuasar%252FTransporte%252FRutas-Generadas%3Fpage-id%3D0%253A1%26node-id%3D1-21%26viewport%3D178%252C532%252C0.47%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A21",
             },
@@ -100,7 +104,7 @@ export const modulos = [
                 url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNUunneO9dP7cir2kDFHYTb%2FQuasar%252FTransporte%252FBusqueda%3Fpage-id%3D0%253A1%26node-id%3D1-188%26viewport%3D665%252C404%252C0.2%26scaling%3Dcontain%26starting-point-node-id%3D1%253A188",
             },
             {
-                subtitle: "Solicitar Transporte",
+                subtitle: "Crear Solicitud",
                 url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBdZnSzX7ykRxcQ4w8lLEt3%2FQuasar%252FTransporte%252FSolicitar-Transporte%3Fpage-id%3D0%253A1%26node-id%3D1%253A21%26viewport%3D718%252C477%252C0.21%26scaling%3Dscale-down",
             },
         ],
