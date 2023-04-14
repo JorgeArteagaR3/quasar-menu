@@ -149,6 +149,10 @@ export const modulos = [
                 subtitle: "Picking",
                 url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fa3Y37Uf0r4BFK8mtDG3klj%2FQuasar%252FAlmacen%252FPicking%3Fpage-id%3D0%253A1%26node-id%3D1-455%26viewport%3D187%252C396%252C0.55%26scaling%3Dcontain%26starting-point-node-id%3D1%253A455",
             },
+            {
+                subtitle: "Historial de Movimientos",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F1b2iqPGWz29LBa55erAR6P%2FQuasar%252FAlmacen%252FHistorial-de-Movimientos%3Fpage-id%3D0%253A1%26node-id%3D2-205%26viewport%3D905%252C490%252C0.44%26scaling%3Dscale-down",
+            },
         ],
     },
     {
