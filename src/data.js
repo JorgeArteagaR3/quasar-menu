@@ -20,7 +20,7 @@ import { BsTools, BsTruck } from "react-icons/bs";
 import { TbBuildingWarehouse, TbReplace } from "react-icons/tb";
 import { FaWarehouse, FaUsers } from "react-icons/fa";
 import { TfiRulerAlt } from "react-icons/tfi";
-import { IoBusinessOutline } from "react-icons/io5";
+import { IoBusinessOutline, IoEarth } from "react-icons/io5";
 import { CgExtensionRemove } from "react-icons/cg";
 import { BsCardHeading } from "react-icons/bs";
 import { RxDimensions } from "react-icons/rx";
@@ -314,5 +314,23 @@ export const dataBase = [
         title: "Unidad de Negocio",
         Icon: MdBusiness,
         url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fpf9tKtFDjxUsZouagWlOJe%2FQuasar%252FUnidad-de-Negocio%3Fpage-id%3D0%253A1%26node-id%3D1%253A164%26viewport%3D599%252C372%252C0.46%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A164",
+    },
+    {
+        title: "Geografía",
+        Icon: IoEarth,
+        sublist: [
+            {
+                subtitle: "Departamento",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F988mOrlrEi6AOPOFUh6sB1%2FQuasar%252FGeografia%252FDepartamento%3Fpage-id%3D0%253A1%26node-id%3D1-148%26viewport%3D806%252C524%252C0.41%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A148",
+            },
+            {
+                subtitle: "Provincia",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFeVsooKcQByq3vpL8c5NYn%2FQuasar%252FGeografia%252FProvincia%3Fpage-id%3D0%253A1%26node-id%3D3-603%26viewport%3D641%252C440%252C0.55%26scaling%3Dcontain",
+            },
+            {
+                subtitle: "Distrito",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgxqLqigKlxVhdqMtvFpAsi%2FQuasar%252FGeograf%25C3%25ADa%252FDistrito%3Fpage-id%3D0%253A1%26node-id%3D1-103%26viewport%3D450%252C563%252C0.7%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A103",
+            },
+        ],
     },
 ];
