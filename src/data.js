@@ -69,8 +69,8 @@ export const modulos = [
         Icon: BsTools,
         sublist: [
             {
-                subtitle: "Lista de Mantenimientos",
-                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlfmKbn8DFUzIrAlXKzUhT6%2FQuasar%252FLista-de-Mantenimientos%3Fpage-id%3D0%253A1%26node-id%3D2%253A39%26viewport%3D286%252C130%252C0.32%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A39",
+                subtitle: "Mantenimientos realizados - Campo",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlfmKbn8DFUzIrAlXKzUhT6%2FQuasar%252FMantenimientos-Realizados%3Fpage-id%3D0%253A1%26node-id%3D2-39%26viewport%3D-739%252C-282%252C0.62%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A39",
             },
             {
                 subtitle: "Solicitud de Mantenimiento",
@@ -186,11 +186,6 @@ export const administracion = [
         Icon: BiBell,
         url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FISfMVe40E8w7FOPLx4pr1y%2FQuasar%252FAdministrar-Notificaciones%3Fpage-id%3D0%253A1%26node-id%3D2%253A8%26viewport%3D529%252C658%252C0.26%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A8",
     },
-    {
-        title: "Roles",
-        Icon: FiUser,
-        url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8xoVBEeTqECt5pmLDHCDcR%2FQuasar%252FGestionar-Roles%3Fpage-id%3D0%253A1%26node-id%3D1%253A137%26viewport%3D358%252C121%252C0.34%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A137",
-    },
 ];
 
 export const dataBase = [
@@ -217,9 +212,18 @@ export const dataBase = [
         ],
     },
     {
-        title: "Usuarios",
+        title: "Personal",
         Icon: FiUsers,
-        url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaIWzrz7plNXBM1TSjPEQ9Q%2FQuasar%252FUsuarios%3Fpage-id%3D0%253A1%26node-id%3D2%253A12%26viewport%3D248%252C308%252C0.35%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A12",
+        sublist: [
+            {
+                subtitle: "Usuarios",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaIWzrz7plNXBM1TSjPEQ9Q%2FQuasar%252FUsuarios%3Fpage-id%3D0%253A1%26node-id%3D2%253A12%26viewport%3D248%252C308%252C0.35%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A12",
+            },
+            {
+                subtitle: "Roles",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8xoVBEeTqECt5pmLDHCDcR%2FQuasar%252FGestionar-Roles%3Fpage-id%3D0%253A1%26node-id%3D1%253A137%26viewport%3D358%252C121%252C0.34%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A137",
+            },
+        ],
     },
     {
         title: "Categorias",
