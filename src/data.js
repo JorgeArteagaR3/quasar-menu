@@ -235,7 +235,7 @@ export const dataBase = [
             },
             {
                 subtitle: "Categoria",
-                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0tNj9PLqLdPpnepH98lTyC%2FQuasar%252FCategor%25C3%25ADas%3Fpage-id%3D0%253A1%26node-id%3D43%253A86%26viewport%3D1615%252C1246%252C0.39%26scaling%3Dscale-down%26starting-point-node-id%3D43%253A86",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0tNj9PLqLdPpnepH98lTyC%2FQuasar%252FCategor%25C3%25ADas%3Fpage-id%3D0%253A1%26node-id%3D1-3%26viewport%3D677%252C386%252C0.43%26scaling%3Dscale-down",
             },
         ],
     },
