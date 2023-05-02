@@ -277,7 +277,7 @@ export const dataBase = [
         Icon: FiPackage,
         sublist: [
             {
-                subtitle: "Lista de Elementos",
+                subtitle: "Elemento",
                 url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FtWSZXLIwB30EO6jq8qfvI5%2FQuasar%252FElemento%252FLista-de-Elementos%3Fpage-id%3D0%253A1%26node-id%3D1-2%26viewport%3D697%252C391%252C0.62%26scaling%3Dscale-down",
             },
             {
