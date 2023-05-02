@@ -199,11 +199,11 @@ export const dataBase = [
             },
             {
                 subtitle: "Cadenas",
-                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcLmPhTCpSAOG2ruhOeLivL%2FQuasar%252FTiendas%252FCadenas%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D728%252C134%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcLmPhTCpSAOG2ruhOeLivL%2FQuasar%252FTiendas%252FCadenas%3Fpage-id%3D0%253A1%26node-id%3D107-2%26viewport%3D607%252C201%252C0.34%26scaling%3Dscale-down%26starting-point-node-id%3D107%253A2",
             },
             {
                 subtitle: "Formato de Tienda",
-                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQZFrTm22DM5IzEHWqs5SrB%2FQuasar%252FTiendas%252FFormato-de-Tienda%3Fpage-id%3D0%253A1%26node-id%3D1%253A306%26viewport%3D631%252C-26%252C0.39%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A306",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQZFrTm22DM5IzEHWqs5SrB%2FQuasar%252FTiendas%252FFormato-de-Tienda%3Fpage-id%3D0%253A1%26node-id%3D1-2%26viewport%3D713%252C90%252C0.33%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
             },
             {
                 subtitle: "Tienda",
