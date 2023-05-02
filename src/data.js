@@ -275,7 +275,16 @@ export const dataBase = [
     {
         title: "Elementos",
         Icon: FiPackage,
-        url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fjco1OUTBeE9nzIa4Y7TlLI%2FQuasar%252FElementos%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D854%252C690%252C0.79%26scaling%3Dscale-down",
+        sublist: [
+            {
+                subtitle: "Lista de Elementos",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FtWSZXLIwB30EO6jq8qfvI5%2FQuasar%252FElemento%252FLista-de-Elementos%3Fpage-id%3D0%253A1%26node-id%3D1-2%26viewport%3D697%252C391%252C0.62%26scaling%3Dscale-down",
+            },
+            {
+                subtitle: "Tipo de Elemento",
+                url: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fjco1OUTBeE9nzIa4Y7TlLI%2FQuasar%252FTipo-de-Elemento%3Fpage-id%3D0%253A1%26node-id%3D1-2%26viewport%3D458%252C639%252C0.47%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A2",
+            },
+        ],
     },
     {
         title: "Almacenes",
